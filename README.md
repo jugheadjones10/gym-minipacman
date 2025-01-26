@@ -6,10 +6,16 @@ A Gymnasium port of the original MiniPacman environment from [mltrain-nips-2017]
 
 ## Installation
 
+### Using pip
+
 ```bash
-git clone https://github.com/yourusername/gym-minipacman.git
-cd gym-minipacman
-pip install -e .
+pip install git+https://github.com/jugheadjones10/gym-minipacman.git
+```
+
+### Using Poetry
+
+```bash
+poetry add git+https://github.com/jugheadjones10/gym-minipacman.git
 ```
 
 ## Quick Start
