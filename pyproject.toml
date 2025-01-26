@@ -1,0 +1,23 @@
+[project]
+name = "gym-minipacman"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kim Young Jin",email = "kimyoungjin1001@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gymnasium (>=1.0.0,<2.0.0)",
+    "pyglet (>=2.1.2,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [
+    {include = "gym_minipacman"}
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
